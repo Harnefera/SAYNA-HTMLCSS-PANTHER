@@ -1,0 +1,218 @@
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'BEYNO';
+    src: url(font/BEYNO.ttf) format(truetype);
+    }
+
+@font-face {    
+    font-family: 'Cantarell-Bold';
+    src: url(font/Cantarell-Bold.ttf) format(truetype);
+    }
+
+@font-face {    
+    font-family: 'Cantarell-regular';
+    src: url(font/Cantarell-Regular.ttf) format(truetype);
+    }
+
+@font-face {    
+    font-family: 'Cantarell-italic';
+    src: url(font/Cantarell-Italic.ttf) format(truetype);
+    }
+
+@font-face {    
+    font-family:'Cantarell-bolditalic' ;
+    src: url(font/Cantarell-BoldItalic.ttf) format(truetype);
+    }
+
+@font-face {    
+    font-family: 'Panthera';
+    src: url(font/PantheraRegular-MVZ9J.ttf) format(truetype);
+    }
+
+@font-face {    
+    font-family: 'wakandaForever';
+    src: url(font/WakandaForever-Regular.ttf) format(truetype);
+}
+
+.nav a {
+    color: #fff;
+    font-family: 'BEYNO';
+    font-size: clamp(0.5rem, 1.2vw, 2rem);
+}
+
+.nav a:hover, .nav a:active, footer a:active, footer a:hover {
+    color: #F2CEF2;
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    color: #9E91B7;
+}
+
+* h1 {
+    font-family: 'Panthera';
+    font-size: clamp(16px, 4.5vw, 45px);
+}
+
+p, ul, li {
+    font-family: 'Cantarell-regular';   
+    font-size: clamp(8px, 1.1vw, 12px); 
+}
+
+* h2, .album h3 {
+    font-family: 'BEYNO';
+    font-size: clamp(12px, 2vw, 26px);
+    text-transform: uppercase;
+}
+body {
+    color: aliceblue;
+    margin: 0;
+    padding: 0;   
+    background-image: url("Illustrations-Logo/All-pages/arrière_plan.png");
+    background-size: cover;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.logo img {
+    max-height: 25px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+}
+
+
+
+/* Style pour les Footer */
+.pre-footer {
+    height: 15vh;
+    background-image: url(Illustrations-Logo/All-pages/arrière_plan.png);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 7%;
+    z-index: 99999;
+}
+
+.pre-circle {
+    background: #021740 ;
+    border: #021740 5px;
+    border-radius: 50%;
+    left: 80vw;
+    width: 12vh;
+    height: 12vh;
+}
+
+footer h4 {
+    letter-spacing: 0.5em;
+    font-size: 13px;
+}
+
+footer a {
+    color: #fff;
+    margin-top: 1vh;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+footer {
+    background-image: url("Illustrations-Logo/All-pages/back_footer.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Cantarell-regular';
+}
+
+.marvel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 400px;
+    height: 38vh;
+    min-height: 250px;
+}
+
+.footer-dh, .footer-db ul{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.footer-db li{
+    list-style: disc;
+    font-size: 10px;
+}
+
+.footer-db ul {
+    gap: 20px;
+}
+
+.pages {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-droit {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.socio-foot img {
+    width: 12%;
+    display: inline-flex;
+}
+
+.metafoot {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.circle {
+    width: 65%;
+    margin-top: 25%;
+    opacity: .7;
+    min-width: 150px;
+}
+
+.circle-inside {
+    width: 30%;
+    margin-top: 22%;
+    position: absolute;
+    align-self: center;
+}
+
+footer section {
+    padding: 30px;
+}

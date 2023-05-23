@@ -1,0 +1,167 @@
+.hero {
+    position: relative;
+    display: flex;
+    height: 56vh;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.hero-container {
+    flex-basis: 60%;
+    margin: 0;
+    transform: translateX(-4vw);
+    -webkit-transform: translateX(-4vw);
+    -moz-transform: translateX(-4vw);
+    -ms-transform: translateX(-4vw);
+    -o-transform: translateX(-4vw);
+}
+
+.tsipika {
+    width: 100%;
+}
+.hero-image1 {
+    max-width: 58%;
+    height: auto;
+    float: left;
+}
+
+h1, h2 {
+    font-family: 'BEYNO';
+    font-size: clamp(16px, 3.5vw, 45px);
+    text-transform: uppercase;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    letter-spacing: 3.6px;
+    padding-top: 10vh;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: clamp(7px, 1vw, 10px); 
+}
+
+.hero-title {
+    padding: 2vw;
+    margin-top: 10px;
+}
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    padding-top: 2vh;
+    background-image: url(Illustrations-Logo/Enigme/Pantherenigme2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    width: 40vw;
+}
+
+.quote {
+    font-family: 'wakandaForever';
+    font-size: clamp(14px, 2.5vw, 29px); 
+    word-spacing: 0.4em;
+    padding-top: 12vh;
+    padding-left: 12vw;
+    font-weight: normal;
+}
+
+.hero-text p, .notaben p {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.traduction h3 {
+    text-transform: uppercase;
+    font-size: clamp(10px, 1.4vw, 15px); 
+    color: #fff;
+    font-weight: normal;
+    padding-bottom: 10vh;
+}
+
+h3 em {
+    font-family: 'wakandaForever';
+    font-size: clamp(10px, 1.6vw, 18px); 
+}
+
+label {
+    font-family: 'Cantarell-regular';
+    font-size: clamp(9px, 1.1vw, 12px); 
+}
+
+#morse {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding-bottom: 10%;
+}
+
+#leftcase {
+    width: 35vw;
+    padding-left: 8vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 28vw;
+    align-content: center;
+    justify-content: center;
+}
+
+.notaben {
+    background-image: url(Illustrations-Logo/Enigme/Pantherenigme2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 30vh;
+    width: 40vw;
+    padding-top: 1.5vh;
+}
+
+input[type="text"] {
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    color: #F2CEF2;
+    background: none;
+    border: #9E91B7 1.5px solid;
+    padding-left: 5%;
+    margin-top: 1vh;
+    height: 4vh;
+    min-height: 20px;
+}
+
+input[type="submit"] {
+    font-size: clamp(9px, 1.1vw, 11px); 
+    font-style: 'Cantarell-regular';
+    font-size: 10px;
+    margin-top: 4vh;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    background: #F2CEF2;
+    border: none;
+    color: #021740;
+    width: 10vw;
+    height: 4vh;
+    align-self: center;
+    min-width: 60px;
+    min-height: 20px;
+    text-transform: uppercase;
+}
